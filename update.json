@@ -1,0 +1,17 @@
+{
+  "updateAvailable": "no",
+  "latestVersionName": "0.1.3",
+  "summary": "Version actuelle stable.",
+  "releases": [
+    {
+      "versionName": "0.1.3",
+      "date": "2026-03-22",
+      "summary": "Base stable avec mecanique de mise a jour via Apps Script.",
+      "features": [
+        "Manifest public sans URL backend",
+        "Demande de lien de telechargement via Apps Script",
+        "Support release notes dans l'application"
+      ]
+    }
+  ]
+}
