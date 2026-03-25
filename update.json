@@ -1,8 +1,14 @@
 {
   "updateAvailable": "yes",
-  "latestVersionName": "0.1.6",
-  "summary": "Mise a jour disponible: correction de l'etat de mise a jour, verification au retour dans l'app et comparaison de versions renforcee.",
+  "latestVersionName": "0.1.7",
+  "summary": "Mise a jour disponible: version 0.1.7.",
   "releases": [
+    {
+      "versionName": "0.1.7",
+      "date": "2026-03-25",
+      "summary": "Stabilisation du parcours de mise a jour.",
+      "features": []
+    },
     {
       "versionName": "0.1.6",
       "date": "2026-03-25",
