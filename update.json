@@ -1,8 +1,18 @@
 {
   "updateAvailable": "yes",
-  "latestVersionName": "0.1.5",
-  "summary": "Mise a jour disponible: verification manuelle, date du dernier check, securisation des champs et support licence.",
+  "latestVersionName": "0.1.6",
+  "summary": "Mise a jour disponible: correction de l'etat de mise a jour, verification au retour dans l'app et comparaison de versions renforcee.",
   "releases": [
+    {
+      "versionName": "0.1.6",
+      "date": "2026-03-25",
+      "summary": "Stabilisation du parcours de mise a jour.",
+      "features": [
+        "Le statut Mise a jour en attente se nettoie quand aucune mise a jour n'est disponible",
+        "Rafraichissement automatique du statut de mise a jour au retour dans l'application",
+        "Comparaison de version plus robuste (formats avec prefixes ou suffixes)"
+      ]
+    },
     {
       "versionName": "0.1.5",
       "date": "2026-03-22",
