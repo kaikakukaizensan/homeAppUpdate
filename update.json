@@ -1,8 +1,14 @@
 {
   "updateAvailable": "yes",
-  "latestVersionName": "0.1.8",
-  "summary": "Mise a jour disponible: version 0.1.8.",
+  "latestVersionName": "0.1.9",
+  "summary": "Mise a jour disponible: version 0.1.9.",
   "releases": [
+    {
+      "versionName": "0.1.9",
+      "date": "2026-03-26",
+      "summary": "Stabilisation du parcours de mise a jour.",
+      "features": []
+    },
     {
       "versionName": "0.1.8",
       "date": "2026-03-25",
