@@ -1,8 +1,18 @@
 {
   "updateAvailable": "yes",
-  "latestVersionName": "0.1.12",
+  "latestVersionName": "0.1.13",
   "summary": "Mise a jour disponible: version 0.1.10.",
   "releases": [
+    {
+      "versionName": "0.1.13",
+      "date": "2026-03-27",
+      "summary": "Notifications cliquables, plus de spam au demarrage, sauvegarde avatar plus rapide.",
+      "features": [
+        "Tap sur une notification ouvre directement la tache ou depense associee",
+        "Fix spam de notifications a chaque demarrage",
+        "Sauvegarde configuration (avatar, budget) beaucoup plus rapide"
+      ]
+    },
     {
       "versionName": "0.1.12",
       "date": "2026-03-27",
