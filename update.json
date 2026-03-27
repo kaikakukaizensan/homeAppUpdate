@@ -1,8 +1,17 @@
 {
   "updateAvailable": "yes",
-  "latestVersionName": "0.1.10",
+  "latestVersionName": "0.1.11",
   "summary": "Mise a jour disponible: version 0.1.10.",
   "releases": [
+    {
+      "versionName": "0.1.11",
+      "date": "2026-03-27",
+      "summary": "Correction du crash au lancement sur certains appareils Android.",
+      "features": [
+        "Fix du crash AndroidRuntime au demarrage",
+        "Ressource icone de la barre de titre rendue compatible Compose"
+      ]
+    },
     {
       "versionName": "0.1.10",
       "date": "2026-03-26",
