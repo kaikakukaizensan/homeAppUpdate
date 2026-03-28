@@ -1,18 +1,31 @@
 {
   "updateAvailable": "yes",
-  "latestVersionName": "0.1.15",
-  "latestVersionCode": 18,
-  "hashAPK": "8bd2766a2fb230801cabe0f1f8bdef28ad489462ad35f0d2bfc974a8c1234b26",
-  "summary": "Mise a jour disponible: version 0.1.15.",
+  "latestVersionName": "0.1.16",
+  "latestVersionCode": 19,
+  "hashAPK": "7af4f14f7dc0a4e118f349cfe6838b033e99076fa41dbbb6ebce3aab429ba416",
+  "summary": "Mise a jour disponible: version 0.1.16.",
   "releases": [
+    {
+      "versionName": "0.1.16",
+      "date": "2026-03-28",
+      "summary": "Gestion multi-appareils : listing, revocation, slots, badge appareil courant.",
+      "features": [
+        "Listing des appareils lies dans Configuration",
+        "Revocation d'un appareil a distance",
+        "Badge Cet appareil pour identifier l'appareil courant",
+        "Compteur de slots utilises/maximum",
+        "Protection contre l'auto-revocation",
+        "Sync robustifiee avec uniqueDeviceId"
+      ]
+    },
     {
       "versionName": "0.1.15",
       "date": "2026-03-28",
-      "summary": "Correctif de stabilite pour le lancement et le rendu des avatars.",
+      "summary": "Securite Phase 1 : SHA-256, device binding, double hash verification.",
       "features": [
-        "Stabilisation du lancement",
-        "Protection du rendu avatar contre les images invalides",
-        "Reduction memoire lors du decodage avatar"
+        "SHA-256 APK hashing",
+        "Device binding via UUID",
+        "Double verification manifest + sheet"
       ]
     },
     {
@@ -103,6 +116,5 @@
         "Validation de licence cote Apps Script"
       ]
     }
-  ],
-  "hashAPK": "8bd2766a2fb230801cabe0f1f8bdef28ad489462ad35f0d2bfc974a8c1234b26"
+  ]
 }
