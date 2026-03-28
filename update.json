@@ -1,9 +1,19 @@
 {
   "updateAvailable": "yes",
-  "latestVersionName": "0.1.14",
-  "latestVersionCode": 16,
-  "summary": "Mise a jour disponible: version 0.1.14.",
+  "latestVersionName": "0.1.15",
+  "latestVersionCode": 18,
+  "summary": "Mise a jour disponible: version 0.1.15.",
   "releases": [
+    {
+      "versionName": "0.1.15",
+      "date": "2026-03-28",
+      "summary": "Correctif de stabilite pour le lancement et le rendu des avatars.",
+      "features": [
+        "Stabilisation du lancement",
+        "Protection du rendu avatar contre les images invalides",
+        "Reduction memoire lors du decodage avatar"
+      ]
+    },
     {
       "versionName": "0.1.14",
       "date": "2026-03-28",
@@ -92,5 +102,6 @@
         "Validation de licence cote Apps Script"
       ]
     }
-  ]
+  ],
+  "hashAPK": "8bd2766a2fb230801cabe0f1f8bdef28ad489462ad35f0d2bfc974a8c1234b26"
 }
