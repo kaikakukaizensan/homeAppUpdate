@@ -1,8 +1,18 @@
 {
   "updateAvailable": "yes",
-  "latestVersionName": "0.1.13",
-  "summary": "Mise a jour disponible: version 0.1.13.",
+  "latestVersionName": "0.1.14",
+  "summary": "Mise a jour disponible: version 0.1.14.",
   "releases": [
+    {
+      "versionName": "0.1.14",
+      "date": "2026-03-28",
+      "summary": "Correctif de stabilite pour le lancement et le rendu des avatars.",
+      "features": [
+        "Stabilisation du lancement",
+        "Protection du rendu avatar contre les images invalides",
+        "Reduction memoire lors du decodage avatar"
+      ]
+    },
     {
       "versionName": "0.1.13",
       "date": "2026-03-27",
